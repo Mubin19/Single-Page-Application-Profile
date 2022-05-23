@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Mubin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+
+<!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+      <div class="container">
+        <li><a href="index.php"><img width=50px src="https://c.tenor.com/Wx9IEmZZXSoAAAAj/hi.gif"/></a></li>
+          <a class="navbar-brand" href="#">Hello...! </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#services">Qualification</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">Technical Skills</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+              
+          </div>
+      </div>
+  </nav>
+
+
+ <!--add class navbarDark on navbar scroll 
+<script>
+  
+const header = document.querySelector('.navbar');
+
+window.onscroll = function() {
+    var top = window.scrollY;
+    if(top >=100) {
+        header.classList.add('navbarDark');
+    }
+    else {
+        header.classList.remove('navbarDark');
+    }
+}
+</script>-->
+
+
+ <!-- main banner -->
+ <section class="bgimage" id="home">
+  <div class="container-fluid">
+      <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+          <h2 class="hero_title">Hi, it's me Mubin Salim</h2>
+          <p class="hero_desc">I am a Web Developer in Pune City</p>
+      </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="C:\Users\DELL\OneDrive\Desktop\portfolio_website_fcc-portfolio-starter-files\images\mubs.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p>
+                      <br>
+                      <br>
+                      <br>
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Mubin Salim Sayyed</li>
+                                <li>Birth Date: 19/03/2000</li>
+                                <li>Occupation: Student</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Languages: Marathi, Hindi, English, Urdu.</li>
+                                <li>Hobbies: Playing Cricket, Reading Books, Learning Technical Skills.</li>
+                                <li>Nationality: Indian.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p>
+                          <br>
+                          <br>
+                          <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<!-- services section-->
+<section id="services">
+  <div class="container">
+      <h1 class="text-center">Qualification</h1>
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class="fas servicesIcon fa-layer-group"></i>
+                      <h4 class="card-title mt-3">S.S.C</h4>
+                      <p class="card-text mt-3">
+                        Name of Institute : Anglo Urdu Boys High School.
+                        Board : Maharashtra State Board. <br>
+                        Year of Passing : 2016
+                        Percentage : 71.60%
+
+                        </p>
+                  </div>
+              </div>  
+          </div>
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-layer-group'></i>
+                      <h4 class="card-title mt-3">H.S.C</h4>
+                      <p class="card-text mt-3">
+                        Name of Institute : Poona College.<br>
+                        Board : Maharashtra State Board. <br>
+                        Year of Passing : 2018
+                        Percentage : 62.46%
+
+                      </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-layer-group'></i>
+                      <h4 class="card-title mt-3"> Bachelor in Computer Science</h4>
+                      <p class="card-text mt-3">
+                        Name of Institute : Abeda Inamadr Senior College.<br>
+                        Board : Pune University.<br>
+                        Year of Passing : 2021<br>
+                        Percentage : 74.36%
+
+                        
+
+                      </p>
+                  </div>
+              </div>  
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-layer-group'></i>
+                      <h4 class="card-title mt-3">Pursuing Masters of Computer Applications</h4>
+                      <p class="card-text mt-3">
+                        Name of Institute : Industrial Institue of Computer and Management and Research. <br>
+                        Board : Pune University.<br>
+                       
+
+                        </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class=''></i>
+                      <h4 class="card-title mt-3"></h4>
+                      <p class="card-text mt-3">
+
+
+                        </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class=''></i>
+                      <h4 class="card-title mt-3"></h4>
+                      <p class="card-text mt-3">
+
+
+                        </p>
+                  </div>
+              </div>  
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- portfolio section-->
+<section id="portfolio">
+  <div class="container mt-3">
+      <h1 class="text-center">Technical Skills</h1>
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card">
+                  <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                      <h4 class="card-title">Operating System </h4>
+                      <p class="card-text">Windows 7/8/10, Linux.</p>
+                      <div class="text-center">
+                         <!-- <a href="#" class="btn btn-success">Link</a>-->
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                  <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                      <h4 class="card-title">Languages known </h4>
+                      <p class="card-text">C, C++, Data Structure, Java. </p>
+                      <div class="text-center">
+                          <!-- <a href="#" class="btn btn-success">Link</a>-->
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                  <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                      <h4 class="card-title">Databases</h4>
+                      <p class="card-text">MySQL, PostgreSQL.</p>
+                      <div class="text-center">
+                         <!--  <a href="#" class="btn btn-success">Link</a>-->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                  <img class="card-img-top" src="C:\Users\DELL\OneDrive\Desktop\portfolio_website_fcc-portfolio-starter-files\images\lang.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                      <h4 class="card-title">Web Technologies </h4>
+                      <p class="card-text">HTML, CSS, PHP, Javascript. </p>
+                      <div class="text-center">
+                          <!-- <a href="#" class="btn btn-success">Link</a>-->
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+         
+		 
+      </div>
+</section>
+
+
+
+<!-- contact section-->
+<section id="contact">
+  <div class="container mt-3 contactContent">
+      <h1 class="text-center">Contact Me</h1>
+
+      <div class="row mt-4">
+          <div class="col-lg-6">
+              <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+							  
+				<div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+				<div id="canvasfor-googlemap" style="height:100%; width:100%;max-width:100%;">
+				<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=kasarwadi&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+				</div>
+				<a class="googlemap-code" href="https://www.embed-map.com" id="grabmap-authorization">https://www.embed-map.com</a>
+				<style>#canvasfor-googlemap .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;
+				</style>
+				</div>
+
+                
+          </div>
+
+          <div class="col-lg-6">
+              <!-- form fields -->
+              <form>
+                  <input type="text" class="form-control form-control-lg" placeholder="Name">
+                  <input type="email" class="form-control mt-3" placeholder="Email">
+                  <input type="text" class="form-control mt-3" placeholder="Subject">
+                  <div class="mb-3 mt-3">
+                      <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Details"></textarea>
+                  </div>
+              </form>
+              <button type="button" class="btn btn-success mt-3">Contact Me</button>
+              
+          </div>
+
+      </div>
+  </div>
+</section>
+
+
+
+
+ <!-- footer section-->
+ <footer id="footer">
+  <div class="container-fluid">
+      <!-- social media icons -->
+      <div class="social-icons mt-4">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.github.com/" target="_blank"><i class="fab fa-github"></i></a><br>
+		  <font size= '5'> Email: mubinsayyed19@gmail.com </font> &nbsp
+		 <font size='5'> Ph.no-7666954881 </font>
+      </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
